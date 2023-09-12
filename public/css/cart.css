@@ -1,0 +1,160 @@
+body {
+    font-family: Helvetica;
+    margin: 0;
+}
+
+.fa-solid {
+    color: black;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.content {
+    margin-top: 30px;
+    min-height: 80vh;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.content .link-page {
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.link-page a {
+    text-decoration: none;
+    color: black;
+}
+
+.link-page a:hover {
+    text-decoration: underline;
+}
+
+#main-content {
+    height: fit-content;
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 4rem;
+}
+
+.product-grid {
+    grid-column: span 3/span 3;
+    width: 100%;
+}
+
+.order-summary {
+    grid-column: span 1/span 1;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.sub-total {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 12px 0 12px 0;
+}
+
+.sub-price {
+    text-align: right;
+}
+
+.product-item {
+    padding-right: 140px;
+}
+
+.item-table {
+    width: 100%;
+}
+
+td {
+    padding-left: 0px;
+}
+
+.item-img {
+    height: 6rem;
+    width: 6rem;
+}
+
+.item-img,
+.item-des {
+    display: inline-block;
+}
+
+.item-des a,
+ul {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+
+}
+
+.item-des {
+    padding-left: 20px;
+}
+
+.item-des ul {
+    padding: 0 0 0 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.remove span {
+    color: #737373;
+    text-decoration: underline;
+}
+
+tbody tr {
+    border-top: 1px solid #737373;
+    border-bottom: 1px solid #737373;
+}
+
+.item-quant {
+    text-align: center;
+}
+
+.item-quant {
+    text-align: center;
+}
+
+.item-total {
+    text-align: center;
+}
+
+table tbody tr {
+    background-color: #f6f6f6;
+    border: 2px solid black;
+}
+
+table thead td {
+    text-align: center;
+}
+
+table {
+    border-spacing: 0.4em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}

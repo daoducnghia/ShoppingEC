@@ -1,0 +1,147 @@
+body {
+    font-family: Helvetica;
+    margin: 0;
+}
+
+.fa-solid {
+    color: black;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.content {
+    margin-top: 30px;
+    min-height: 80vh;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.content .link-page {
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.link-page a {
+    text-decoration: none;
+    color: black;
+}
+
+.link-page a:hover {
+    text-decoration: underline;
+}
+
+#main-content {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 3rem;
+}
+
+#contact {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#contact span:first-child {
+    padding-right: 5rem;
+}
+
+#shipping-add {
+    margin-top: 2rem;
+    position: relative;
+}
+
+#shipping-add input[type='text'] {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+#fullname,
+#telephone {
+    display: inline-block;
+}
+
+#shipping-add input[type='text'] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input-text {
+    margin-bottom: 20px;
+}
+
+#telephone {
+    position: absolute;
+    right: 0;
+}
+
+.form button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.form button:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+#cart-info {
+    background-color: #f6f6f6;
+    border-radius: 6px;
+}
+
+#cart-info {
+    padding: 20px
+}
+
+.item-img {
+    width: 100px;
+}
+
+#item td {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.error {
+    color: #EF4444;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+}
+
+#item {
+    width: 100%;
+}
+
+.summary-row {
+    display: grid;
+    margin-bottom: 1rem;
+    grid-gap: 1rem;
+    grid-template-columns: 14rem auto
+}
+
+.summary-row div {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr auto;
+}
+
+#total {
+    margin-top: 1rem;
+}
+
+#item {
+    border-collapse: collapse;
+}
+
+#item td {
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+}

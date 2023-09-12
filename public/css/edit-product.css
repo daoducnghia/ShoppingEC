@@ -1,0 +1,156 @@
+body {
+    font-family: Helvetica;
+    margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 100vh;
+    background-color: #f6f6f6;
+    grid-column: span 1/ span 1;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: lightgray;
+}
+
+.content {
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    grid-column: span 5 / span 5;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.add-product {
+    text-align: end;
+    margin-right: 100px;
+}
+
+.add-product a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    background-color: #000;
+    border-radius: 6px;
+}
+
+.add-product a:hover {
+    background-color: gray;
+}
+
+.listing-product table {
+    width: 100%;
+    margin-top: 50px;
+    background-color: #f6f6f6;
+    padding: 50px;
+    border-radius: 6px;
+    border-collapse: collapse;
+}
+
+.listing-product td {
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+}
+
+.form-add {
+    background-color: #f6f6f6;
+    padding: 40px;
+    border-radius: 6px;
+
+}
+
+.form-add div {
+    margin-bottom: 1rem;
+}
+
+.form-add input[type='text'] {
+    padding: 10px;
+    width: 100%;
+    margin-top: 6px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+.form-add textarea {
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+.form-add select {
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+.form-add div button {
+    padding: 15px 10px 15px 10px;
+    border-radius: 6px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+.btn-submit {
+    width: 100%;
+    text-align: center;
+}
+
+div button:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+.error {
+    color: #EF4444;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+}
+
+.logout button {
+    width: 100%;
+    height: fit-content;
+    font-size: 16px;
+    background-color: #f6f6f6;
+    border: none;
+    padding: 10px;
+}
+
+.logout button:hover {
+    background-color: lightgray;
+}
+
+.form-add {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    width: 1000px;
+}
+
+.clm-left,
+.clm-right {
+    flex-basis: 50%;
+}

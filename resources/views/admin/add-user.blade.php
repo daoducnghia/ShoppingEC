@@ -5,17 +5,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin</title>
-    <link rel="stylesheet" href="/css/edit-product.css" />
+    <link rel="stylesheet" href="{{ asset('/css/edit-user.css') }}" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"
         type="text/css" />
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
-    <div class="horizontal-"></div>
     <div class="wrapper">
         <!-- Navbar -->
-
         <div class="navbar">
             <a href=""><img src="{{ asset('images/logo-nobg.png') }}" alt="" style="width: 30%" /></a>
             <br />
@@ -33,7 +30,7 @@
         <!-- Main -->
         <main class="content">
             <h1>ADD USER</h1>
-            <form action="/admin/added/user" method="POST">
+            <form class="form-add" action="/admin/added/user" method="POST">
                 @csrf
                 <div>
                     <label for="">Name</label>

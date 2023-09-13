@@ -5,10 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin</title>
-    <link rel="stylesheet" href="/css/edit-product.css" />
+    <link rel="stylesheet" href="{{ asset('css/edit-user.css') }}" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"
         type="text/css" />
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
@@ -33,7 +32,8 @@
         <!-- Main -->
         <main class="content">
             <h1>EDIT USER</h1>
-            <form action="/admin/user/edited/{{ $user->id }}" method="POST" enctype="multipart/form-data">
+            <form class="form-add" action="/admin/user/edited/{{ $user->id }}" method="POST"
+                enctype="multipart/form-data">
                 @csrf
                 @method('PUT')
                 <div>

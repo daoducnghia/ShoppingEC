@@ -66,7 +66,7 @@
                                 <div class="listing-item">
                                     <div>
                                         <a href="/product/ {{ $product->id }}">
-                                            <img src="{{ $product->image ? asset('storage/' . $listing->image) : asset('images/plv7632-Green-single.png') }}"
+                                            <img src="{{ $product->image ? asset('storage/' . $product->image) : asset('images/plv7632-Green-single.png') }}"
                                                 alt="" style="width: 100%" />
                                         </a>
                                     </div>

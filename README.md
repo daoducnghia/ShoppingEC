@@ -4,7 +4,7 @@
    #### Project cá nhân sử dụng các công nghệ như PHP, Laravel,...nhằm tạo ra một trang web bán hàng với các chức năng cơ bản.
    
 3. Cài đặt
-#### Chạy các lệnh sau trong terminal với đường dẫn tới project
+    #### Chạy các lệnh sau trong terminal với đường dẫn tới project
    - composer install
    - cp .env.example .env
    - php artisan key:generate
@@ -12,7 +12,7 @@
    - php artisan migrate
    - php artisan db:seed
    - php artisan serve
-5. Các chức năng chính
+3. Các chức năng chính
    - Đăng ký/ đăng nhập
    - Xem chi tiết sản phẩm
    - Thêm sản phẩm vào giỏ hàng
@@ -21,14 +21,14 @@
    - (Admin) Thêm/sửa/xoá sản phẩm
    - (Admin) Thêm/sửa/xoá tài khoản user
    - Lọc theo khoảng giá, mới ra mắt.
-6. Công nghệ sử dụng
+4. Công nghệ sử dụng
    - HTML/CSS/JS
    - PHP
    - Framework Laravel
-7. Người đóng góp
+5. Người đóng góp
    -  Đào Đức Nghĩa 
-8. Mọi góp ý xin hãy liên hệ qua email: nghiadd.work@gmail.com
-9. Một số hình ảnh Project
+6. Mọi góp ý xin hãy liên hệ qua email: nghiadd.work@gmail.com
+7. Một số hình ảnh Project
    - Trang chủ
      ![image](https://github.com/daoducnghia/ShoppingEC/assets/93426925/5f9245b6-b1bd-4d62-b3c3-5b6287a75646)
    - Đăng nhập

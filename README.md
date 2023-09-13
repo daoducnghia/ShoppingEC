@@ -4,42 +4,32 @@
    #### Project cá nhân sử dụng các công nghệ như PHP, Laravel,...nhằm tạo ra một trang web bán hàng với các chức năng cơ bản.
    
 3. Cài đặt
-#Chạy các lệnh sau trong terminal với đường dẫn tới project
+#### Chạy các lệnh sau trong terminal với đường dẫn tới project
    - composer install
    - cp .env.example .env
    - php artisan key:generate
-   - Cấu hình cơ sở dữ liệu trong file .env với SQL
+   - Cấu hình tên cơ sở dữ liệu, tên user và mật khẩu trong file .env với MySQL
    - php artisan migrate
    - php artisan db:seed
    - php artisan serve
 5. Các chức năng chính
    - Đăng ký/ đăng nhập
-   - Chỉnh sửa thông tin cá nhân
-   - Thay đổi mật khẩu
-   - Thêm sản phẩm vào sanh sách yêu thích
    - Xem chi tiết sản phẩm
    - Thêm sản phẩm vào giỏ hàng
    - Thanh toán đơn hàng
-   - Theo dõi trạng thái đơn hàng
-   - Đánh giá sản phẩm
    - Tìm kiếm sản phẩm
    - (Admin) Thêm/sửa/xoá sản phẩm
-   - (Admin) Thêm/sửa/xoá khuyến mại
    - (Admin) Thêm/sửa/xoá tài khoản user
-   - (Admin) Xem thống kê đơn hàng, mặt hàng, khách hàng
-   - (Admin) Cập nhật trạng thái đơn hàng
-   - (Admin) Thống kê doanh thu
 6. Công nghệ sử dụng
    - HTML/CSS/JS
-   - Java
-   - Framework Springboot
+   - PHP
+   - Framework Laravel
 7. Người đóng góp
    -  Đào Đức Nghĩa 
-   -  Đỗ Văn Quang
 8. Mọi góp ý xin hãy liên hệ qua email: nghiadd.work@gmail.com
 9. Một số hình ảnh Project
    - Trang chủ
-      ![image](https://github.com/daoducnghia/E-commerce-bookstore/assets/93426925/8f1291bc-ee44-4a0d-95ce-5e048858d1c8)
+      ![image](https://github.com/daoducnghia/ShoppingEC/assets/93426925/5f9245b6-b1bd-4d62-b3c3-5b6287a75646)
    - Đăng nhập
      ![image](https://github.com/daoducnghia/E-commerce-bookstore/assets/93426925/eb7e34ca-d034-432c-a5d8-c0dfd3850d52)
    - Đăng ký

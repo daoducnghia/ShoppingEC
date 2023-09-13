@@ -1,7 +1,7 @@
 <nav class="topnav">
     <div class="logo">
         <a href="/">
-            <img src="{{ asset('images/logo-nobg.png') }}" alt="" />
+            <img src="{{ asset('images/logo-nobg.png') }}" alt="" width="100%" />
         </a>
     </div>
     <div class="menu">
